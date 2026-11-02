@@ -1,0 +1,4 @@
+# so documentacao e o zip vai para as Releases, nunca para o git
+*.zip
+*.sha256
+*.log
