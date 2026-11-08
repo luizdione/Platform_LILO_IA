@@ -1,46 +1,50 @@
 # LILO
 
-Assistente de pesquisa com IA que roda no seu computador. Você conversa em português, no navegador, e ele lê PDFs, faz
-estatística, executa código e guarda a memória dos seus projetos.
+An AI research assistant that runs on your own computer. You chat with it in your browser, and it reads PDFs,
+runs statistics, executes code and keeps the memory of your projects.
 
-## Instalar
+## Install
 
-Windows 10 ou 11. Abra o **PowerShell**, cole esta linha e tecle Enter:
+Windows 10 or 11. Open **PowerShell**, paste this line and press Enter:
 
 ```powershell
 irm https://github.com/luizdione/Platform_LILO_IA/releases/latest/download/instalar.ps1 | iex
 ```
 
-Ela baixa o instalador, confere o arquivo e abre uma janela. Nela:
+It downloads the installer, verifies the file and opens a window. There:
 
-1. Se algum item aparecer com `[XX]`, clique em **Instalar o que falta**.
-2. Marque a licença e clique em **Instalar tudo**.
-3. Quando o console escrever **LILO PRONTO**, o chat abre no navegador.
+1. If any item shows up as `[XX]`, click **Instalar o que falta** (install what is missing).
+2. Tick the licence and click **Instalar tudo** (install everything).
+3. When the console prints **LILO PRONTO**, the chat opens in your browser.
 
-O instalador escolhe os modelos que cabem na sua máquina e mostra o tamanho antes de baixar. Reserve de 20 a 60 GB de
-disco. Com placa NVIDIA as respostas são bem mais rápidas.
+The installer picks the models that fit your machine and shows their size before downloading. Set aside 20 to
+60 GB of disk space. With an NVIDIA card, answers come much faster.
 
-## Usar
+> The installer's own interface is in Portuguese. The labels you need are quoted above.
 
-| Comando | O que faz |
+## Use
+
+| Command | What it does |
 |---|---|
-| `lilo` | Liga e abre o chat |
-| `lilo status` | Mostra o que está ligado |
-| `lilo down` | Desliga |
+| `lilo` | Starts it and opens the chat |
+| `lilo status` | Shows what is running |
+| `lilo down` | Shuts it down |
 
-Passo a passo completo, remoção e problemas comuns: [INSTALACAO.md](INSTALACAO.md).
+Full walkthrough, removal and common problems: [INSTALL.md](INSTALL.md).
 
-## Privacidade
+## Privacy
 
-Conversas e arquivos ficam no seu computador. Só sai o que você pedir a um serviço externo, como uma busca de literatura.
+Conversations and files stay on your computer. Nothing leaves it unless you ask an external service for
+something, such as a literature search.
 
-## Licença
+## Licence
 
-**PolyForm Strict 1.0.0** ([LICENSE](LICENSE)): uso gratuito e não comercial, sem redistribuir nem modificar. Para outros
-usos, abra uma *issue*. Ollama, Open WebUI e Docker Desktop têm licenças próprias e não são redistribuídos aqui.
+**PolyForm Strict 1.0.0** ([LICENSE](LICENSE)): free, non-commercial use, with no redistribution and no
+modification. For any other use, open an *issue*. Ollama, Open WebUI and Docker Desktop have their own
+licences and are not redistributed here.
 
 Required Notice: Copyright Luiz Dione Barbosa De-Melo (https://github.com/luizdione/Platform_LILO_IA)
 
-## Ajuda
+## Help
 
-Abra uma [*issue*](https://github.com/luizdione/Platform_LILO_IA/issues).
+Open an [*issue*](https://github.com/luizdione/Platform_LILO_IA/issues).
